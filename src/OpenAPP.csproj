@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>OpenApp</RootNamespace>
+    <AssemblyName>OpenApp</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bytehide.Shield.MSbuild" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="MaterialDesignThemes" />
+    <None Remove="MaterialDesignColors" />
+    <None Remove="OpenAI" />
+    <None Remove="Microsoft.CodeAnalysis.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenAI" Version="1.6.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" />
+  </ItemGroup>
+</Project>
