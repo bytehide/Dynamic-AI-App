@@ -56,3 +56,5 @@ I can think of a couple of ideas:
 If you want to know how artificial intelligence can help you secure your .NET software, we at ByteHide are developing the platform of the future to secure distributed software, without the need for experts, centralized and automated, AI-powered so you can focus on developing good software and delegate the security of it.
 
 ## [https://bytehide.com](https://bytehide.com) ♥️
+
+# Pull request and contributions welcome!
